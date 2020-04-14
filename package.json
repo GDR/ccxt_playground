@@ -1,0 +1,22 @@
+{
+  "name": "ccxt_playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "start": "ts-node ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ccxt": "github:currencycom/ccxt#master",
+    "dotenv": "^8.2.0",
+    "ts-node": "^8.8.2",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0"
+  }
+}
